@@ -1,0 +1,360 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+#fieldset{
+    top: 0%; 
+    position: sticky;   
+/}
+.head {
+    display: inline;
+   
+} 
+    
+/* #youtube a{
+    display: inline;
+    padding-left: 66%;
+} */
+.end {
+    display: inline;
+    padding-left: 75%;
+
+}
+/* #inst a{
+    display: inline;
+    padding-left: 68%;
+} */
+
+#navbar1{
+    position: sticky;
+    top: 0%;
+    align-items: center;
+}
+#navbar a{
+    display: inline;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+    position: sticky;
+    top: 0%;
+    align-items: center;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar1 ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    margin-top: 20px;
+    padding-inline-start: 20px;
+    justify-content: space-around;
+    position: sticky;
+    top: 0%;
+    align-items: center;
+}
+#navvv{
+    border: solid rgb(9, 31, 53);
+    background-color: #FFEEE7;
+    color: aliceblue;
+    position: sticky;
+    top: 4%;
+    align-items: center;
+    
+}
+#navbar1 ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+    position: sticky;
+    top: 0%;
+    align-items: center;
+}
+
+#navbar1 ul li a{
+    color: rgb(143, 24, 24);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    position: sticky;
+    top: 0%;
+    align-items: center;
+}
+
+#navbar1 ul li a:hover{
+    color: black;
+    background-color: rgb(118, 113, 141);
+}
+#firstpage{
+    /* background-color: #190482; */
+    background-image: url(theme.png);
+    display: inline;
+    margin-top: 30px;
+    /* margin-left: 20px;
+    margin-right:20px; */
+
+}
+#firstpage h1 ,h3 {
+ margin-left: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #FFEEE7;
+
+}
+#firstpage .tapStart{
+    padding-right: 90%;
+}
+.but{
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.tech{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: dotted;
+    text-align: justify;
+    color: seashell;
+}
+
+
+#firstpage video{
+    display: inline;
+    padding-left: 970px;
+    justify-self: right;
+    margin-bottom: 10px;
+    margin-inline-end: 40px;
+    padding-top: -70%;
+    padding-bottom: -50%;
+}
+#firstpage h3{
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* course */
+#secondpage{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+
+
+}
+#secondpage h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(152, 209, 222);
+    
+}
+#secondpage h3, h3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(18, 17, 17)
+    
+}
+/* #secondpage .know02{
+    margin-left: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+} */
+#secondpage .know1{
+    margin-left: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+/* DSA */
+
+#DSA{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(178, 218, 218)
+    /* margin-bottom : 10px; */
+
+}
+#DSA .pre{
+    margin-top: 20px;
+}
+#DSA img{
+    margin-left: 100px;
+}
+
+/* full stack  */
+#Web video{
+    padding-top: 20px;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 150px;
+}
+.FSWB{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#Web .cen h2{ 
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 45%;
+}
+.cen img{
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 50%;
+
+}
+
+
+/* sylabus */
+#sylabus h2{
+    margin-top: 30px;
+    text-align: center;
+}
+#sylabus p, pre{
+    margin-top: 30px;
+    text-align: center;
+}
+#java h2,h3,p{
+    text-align: center;
+
+}
+    
+#1st{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+.iteamm{
+    /* padding-left: 50%; */
+    margin-left: 50%;
+    width: 100px;
+    height: 30px;
+
+}
+.placed{
+    margin-left:500px;
+    height: 300px;
+}
+.tryingtofix{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(1, 4, 8);
+}
+.trysame{
+    margin-left: 200px;
+    padding-left: 100px;
+}
+
+.imm{
+    margin-left: 100px;
+}
+.ele1{
+    padding-left: 15%;
+}
+.ele2{
+    padding-left: 200px;
+}
+.ele3{
+    padding-left: 270px;
+}
+.ele11{
+    padding-left: 22%;
+}
+.ele12{
+    padding-left: 170px;
+}
+.ele13{
+    padding-left: 190px;
+}
+.eleimg{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.ele1{
+    margin-left: 100px;
+}
+#OurBlogs{
+    margin: 34px;
+    display: flex;
+    text-align: center;
+}
+ #JV .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+ #JV .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#JV .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+.h-primary{
+   
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: left;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+    display: flex;
+    
+}
+
